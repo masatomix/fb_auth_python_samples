@@ -1,0 +1,27 @@
+[email_and_password]
+  email =
+  password =
+
+[firebase_config]
+  api_key =
+
+[oauth_config]
+  client_id = 594893112xxxx
+  client_secret = DODxxx
+
+  authorization_endpoint = https://accounts.google.com/o/oauth2/v2/auth
+  token_endpoint = https://www.googleapis.com/oauth2/v4/token
+  userinfo_endpoint = https://www.googleapis.com/oauth2/v3/userinfo
+  jwks_uri=https://www.googleapis.com/oauth2/v3/certs
+
+  scope = openid+https://www.googleapis.com/auth/userinfo.email+profile
+  access_token_key =
+
+  redirect_url = xxx
+  media_type = application/x-www-form-urlencoded
+
+
+[proxy]
+  proxy = no
+  http = http://xxx:8888
+  https = http://xxx:8888
